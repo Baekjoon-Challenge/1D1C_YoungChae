@@ -6,3 +6,6 @@
 # 공부용 파일 무시
 SJU/
 test/*
+
+# env
+.vscode/*
