@@ -58,7 +58,7 @@ def lca(a, b):
     
     return parent[a][0]
 
-# LCA
+
 for x, y in q:
     print(height[x] + height[y] - 2 * height[lca(x, y)])
     
